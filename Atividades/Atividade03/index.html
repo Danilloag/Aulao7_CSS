@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade03 da aula 07 de CSS</title>
+</head>
+
+<style>
+    body {
+        display: grid;
+        grid-template-columns: 15vw 70vw 15vw;
+    }
+
+    header, nav, main, aside, footer {
+        text-align: center;
+    }
+
+    header {
+        background-color: orange;
+        height: 25vh;
+        grid-column: span 3;
+    }
+
+    nav {
+        background-color: green;
+        height: 50vh;
+    }
+
+    main {
+        background-color: yellow;
+        height: 50vh;
+    }
+
+    aside {
+        background-color: blue;
+        height: 50vh;
+    }
+
+    footer {
+        background-color: red;
+        height: 25vh;
+        grid-column: span 3;
+    }
+</style>
+
+<body>
+
+    <header>HEADER</header>
+    <nav>NAV</nav>
+    <main>CONTEUDO</main>
+    <aside>ASIDE</aside>
+    <footer>RODAPE</footer>
+
+</body>
+
+</html>
